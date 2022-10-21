@@ -86,9 +86,9 @@ img{
     width: calc(100% / 5);
     opacity: 0.5;
     cursor: pointer;
-    /* DEBUG */
-    border: 1px black solid;
+    object-fit:cover;
 }
+
 
 .preview{
     display: flex;
@@ -99,10 +99,7 @@ img{
     display: block;
 }
 
-
-/*
 .thumb-active{
     border: 1px white solid;
     opacity: 1;
 } 
-*/
