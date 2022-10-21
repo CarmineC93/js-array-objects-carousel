@@ -29,7 +29,8 @@ img{
 .item{
     width: 100%;
     height: 100%;
-    /* display: none;  */
+    display: none;
+    position: relative;
 }
 
 .item>img{
@@ -37,6 +38,14 @@ img{
     width: 100%;
     object-fit:cover;
     vertical-align:bottom
+}
+
+.infos-game{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: end;
+    color: white;
 }
 
 .thumbnail{
@@ -86,16 +95,12 @@ img{
     flex-wrap: wrap;
 }
 
-/*
-
 .active{
     display: block;
 }
 
-.hidden {
-    display: none;
-}
 
+/*
 .thumb-active{
     border: 1px white solid;
     opacity: 1;
